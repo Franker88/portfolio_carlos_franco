@@ -1,0 +1,15 @@
+:root {
+  --primary-color: #3498db;
+  --primary-color-dark: #208fd9;
+  --secondary-color: #2ecc71;
+  --secondary-dark: #1ae870;
+  --text-color: #333;
+  --text-color-dark: #f7f7f7;
+  --background-color: #f4f4f4;
+  --background-color-dark: #161616;
+  --font-family: "Arial", sans-serif;
+  --font-size-title: 20px;
+  --font-size-subtitle: 18px;
+  --font-size-normal: 16px;
+  --border-radius: 5px;
+}
