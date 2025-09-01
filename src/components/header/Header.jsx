@@ -14,7 +14,11 @@ const Header = () => {
     <div>
       <header className="Header-container">
         <div className="Side-icon">
-          <FontAwesomeIcon icon={faBars} onClick={handleToggleMenu} />
+          <FontAwesomeIcon
+            className="faBars"
+            icon={faBars}
+            onClick={handleToggleMenu}
+          />
         </div>
       </header>
       <div className="Toggle-switch-div">

@@ -1,12 +1,12 @@
-import { useState } from "react";
 import "./Toggle-switch.css";
+import { useColors } from "../../hooks/useColors";
 
 const ToggleSwitch = () => {
-  const [toggleState, setToggleState] = useState(false);
+  const { isDark, toggleColors } = useColors();
   return (
     <button
-      className={`toggle-switch${toggleState ? " toggled" : ""}`}
-      onClick={() => setToggleState(!toggleState)}
+      className={`toggle-switch${isDark ? " toggled" : ""}`}
+      onClick={() => toggleColors()}
     >
       <div className="thumb"></div>
     </button>

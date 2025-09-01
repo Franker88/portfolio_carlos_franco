@@ -4,8 +4,8 @@ const useSideMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
-    console.log(`isOpen: ${isOpen}`);
     setIsOpen(!isOpen);
+    console.log(`isOpen: ${isOpen}`);
   };
 
   return {
